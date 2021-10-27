@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS joins_exercise;
 
 CREATE DATABASE joins_exercise;
 
-\c joins_exercise
+\c joins_exercise 
 
 CREATE TABLE owners (id SERIAL PRIMARY KEY, first_name TEXT, last_name TEXT);
 
